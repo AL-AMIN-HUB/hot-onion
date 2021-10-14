@@ -1,0 +1,15 @@
+.banner {
+  height: 700px;
+  background-image: url(https://i.ibb.co/TqHr7sf/bannerbackground.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.header {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-top: 15rem;
+  text-align: center;
+}

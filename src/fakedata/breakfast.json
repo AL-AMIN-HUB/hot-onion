@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Eggs Benedict",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 8.99,
+    "image": "https://i.ibb.co/KGr2bR3/breakfast1.png"
+  },
+  {
+    "id": 2,
+    "name": "Breakfast sandwich",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 9.99,
+    "image": "https://i.ibb.co/JQBtBXC/breakfast2.png"
+  },
+  {
+    "id": 3,
+    "name": "Backed chicken",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 10.99,
+    "image": "https://i.ibb.co/k4g2fjx/breakfast3.png"
+  },
+  {
+    "id": 4,
+    "name": "Bagel and cream cheese",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 6.99,
+    "image": "https://i.ibb.co/zbm077N/breakfast4.png    "
+  },
+  {
+    "id": 5,
+    "name": "Full breakfast fried egg toast brunch",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 3.99,
+    "image": "https://i.ibb.co/NpkwQcq/breakfast5.png"
+  },
+  {
+    "id": 6,
+    "name": "Toast croissant fried egg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 19.99,
+    "image": "https://i.ibb.co/DfvF4sm/breakfast6.png"
+  }
+]

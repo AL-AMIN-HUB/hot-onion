@@ -7,6 +7,8 @@ import Footer from "./pages/Home/Footer/Footer";
 import Home from "./pages/Home/Home/Home";
 import MenuBar from "./pages/Home/Manu/MenuBar";
 import NotFounds from "./pages/NotFounds/NotFounds";
+import Login from "./pages/shared/Login/Login";
+import Register from "./pages/shared/Register/Register";
 
 function App() {
   return (
@@ -28,6 +30,12 @@ function App() {
           </Route>{" "}
           <Route path="/dinner">
             <Dinner></Dinner>
+          </Route>{" "}
+          <Route path="/login">
+            <Login></Login>
+          </Route>{" "}
+          <Route path="/register">
+            <Register></Register>
           </Route>
           <Route path="*">
             <NotFounds></NotFounds>

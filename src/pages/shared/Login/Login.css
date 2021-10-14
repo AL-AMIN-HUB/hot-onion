@@ -1,0 +1,8 @@
+.input-bg {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+input[type="submit"] {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}

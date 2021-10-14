@@ -3,10 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import useFirebase from "../../../hooks/useFirebase";
 
 import logo from "../../../Image/logo2.png";
 
 const MenuBar = () => {
+  const { user, logOut } = useFirebase();
   return (
     <>
       <Navbar bg="light" expand="lg">
@@ -24,9 +26,15 @@ const MenuBar = () => {
               <NavLink className="text-decoration-none text-dark fs-4 ms-4" to="/detailsCart">
                 <FontAwesomeIcon icon={faShoppingCart} />
               </NavLink>
-              <NavLink className="text-decoration-none text-dark fs-4 ms-4" to="/login">
-                Log in
-              </NavLink>
+              {user?.email ? (
+                <NavLink onClick={logOut} className="text-decoration-none text-dark fs-4 ms-4" to="/login">
+                  Log out
+                </NavLink>
+              ) : (
+                <NavLink className="text-decoration-none text-dark fs-4 ms-4" to="/login">
+                  Log in
+                </NavLink>
+              )}
               <NavLink className="ms-4 " to="/register">
                 <Button className="fs-5 rounded-pill px-5" variant="danger">
                   Sign up

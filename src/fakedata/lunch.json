@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Beef steak",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 15.99,
+    "image": "https://i.ibb.co/StW7m6L/lunch1.png"
+  },
+  {
+    "id": 2,
+    "name": "Honey-soy-glazed-salmon with peppers",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 7.99,
+    "image": "https://i.ibb.co/NLYZYnf/lunch2.png"
+  },
+  {
+    "id": 3,
+    "name": "Tarragon-rubbed-salmon",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 6.99,
+    "image": "https://i.ibb.co/NjjsPT2/lunch3.png"
+  },
+  {
+    "id": 4,
+    "name": "Indian lunch",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 8.99,
+    "image": "https://i.ibb.co/wL6YBnM/lunch4.png"
+  },
+  {
+    "id": 5,
+    "name": "Fried chicken bento",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 9.99,
+    "image": "https://i.ibb.co/g4mcShg/lunch5.png"
+  },
+  {
+    "id": 6,
+    "name": "Healthy meal plan",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore.",
+    "price": 23.99,
+    "image": "https://i.ibb.co/JHq43mK/lunch6.png"
+  }
+]

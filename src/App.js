@@ -3,8 +3,10 @@ import "./App.css";
 import BreakFast from "./pages/Food/BreakFast/BreakFast";
 import Dinner from "./pages/Food/Dinner/Dinner";
 import Lunch from "./pages/Food/Lunch/Lunch";
+import Footer from "./pages/Home/Footer/Footer";
 import Home from "./pages/Home/Home/Home";
 import MenuBar from "./pages/Home/Manu/MenuBar";
+import NotFounds from "./pages/NotFounds/NotFounds";
 
 function App() {
   return (
@@ -15,19 +17,25 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route exact path="/home">
+          <Route path="/home">
             <Home></Home>
           </Route>{" "}
-          <Route exact path="/breakfast">
+          <Route path="/breakfast">
             <BreakFast></BreakFast>
           </Route>{" "}
-          <Route exact path="/lunch">
+          <Route path="/lunch">
             <Lunch></Lunch>
           </Route>{" "}
-          <Route exact path="/dinner">
+          <Route path="/dinner">
             <Dinner></Dinner>
           </Route>
+          <Route path="*">
+            <NotFounds></NotFounds>
+          </Route>
         </Switch>
+        <div className="footer">
+          <Footer></Footer>
+        </div>
       </Router>
     </div>
   );

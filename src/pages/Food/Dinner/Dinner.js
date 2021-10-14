@@ -20,6 +20,9 @@ const Dinner = () => {
             <DinnerFood key={foods.id} singleFood={foods}></DinnerFood>
           ))}
         </Row>
+        <div className="text-center">
+          <button className="btn btn-outline-warning fs-5">Checkout your food</button>
+        </div>
       </>
     </div>
   );

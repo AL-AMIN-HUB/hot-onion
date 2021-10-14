@@ -19,6 +19,9 @@ const Lunch = () => {
           <LunchFood key={foods.id} singleFood={foods}></LunchFood>
         ))}
       </Row>
+      <div className="text-center">
+        <button className="btn btn-outline-warning fs-5">Checkout your food</button>
+      </div>
     </>
   );
 };

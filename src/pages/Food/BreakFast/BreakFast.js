@@ -19,6 +19,9 @@ const BreakFast = () => {
           <BreakFasts key={foods.id} singleFood={foods}></BreakFasts>
         ))}
       </Row>
+      <div className="text-center">
+        <button className="btn btn-outline-warning fs-5">Checkout your food</button>
+      </div>
     </>
   );
 };

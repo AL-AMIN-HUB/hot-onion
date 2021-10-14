@@ -14,7 +14,7 @@ const BreakFast = () => {
   }, []);
   return (
     <>
-      <Row className="container g-3 mx-auto my-5" xs={1} sm={1} md={3}>
+      <Row className="container g-4 mx-auto my-5" xs={1} sm={1} md={3}>
         {food.map((foods) => (
           <BreakFasts key={foods.id} singleFood={foods}></BreakFasts>
         ))}

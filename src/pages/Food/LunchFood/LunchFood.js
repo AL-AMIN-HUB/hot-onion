@@ -1,10 +1,8 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
-import "./BreakFast.css";
 
-const BreakFasts = (props) => {
+const LunchFood = (props) => {
   const { name, image, desc, price } = props.singleFood;
-
   return (
     <div>
       <Col>
@@ -20,4 +18,4 @@ const BreakFasts = (props) => {
   );
 };
 
-export default BreakFasts;
+export default LunchFood;

@@ -11,7 +11,7 @@ const MenuBar = () => {
   const { user, logOut } = useFirebase();
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar sticky="top" bg="light" expand="lg">
         <Container>
           <Navbar.Brand className="text-md-start text-center">
             <img className="w-25 " src={logo} alt="" />
